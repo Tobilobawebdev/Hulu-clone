@@ -2,8 +2,7 @@ import Head from 'next/head'
 
 
 
-export default function Home({ results }) {
-  console.log(results)
+export default function Home() {
   return (
     <div>
        <Head>
