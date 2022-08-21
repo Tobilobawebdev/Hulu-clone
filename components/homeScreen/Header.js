@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Header = () => {
   return (
     <div>
-        <header className="header h-530 bg-header-img bg-cover w-full  bg-no-repeat bg-center">
+        <header className="header h-[650px] bg-header-img bg-cover w-full  bg-no-repeat bg-center">
         <nav className="relative flex justify-end z-20 px-8 py-6">
           <ul className='space-x-5 flex items-center'>
             <li>
@@ -14,33 +15,31 @@ const Header = () => {
               </button>
               </Link>
             </li>
-            <Link href="/signup">
-            <button className="text-white bg-hulu-green px-6 rounded-lg py-2 font-bold border-0 bg-none uppercase tracking-widest cursor-pointer">
-                Sign up
-              </button>
-            </Link>
           </ul>
         </nav>
         <div className="flex flex-col justify-start items-center mt-10 text-white space-y-6">
           <h4 className="uppercase text-sm text-hulu-green font-bold">
-            Try up to one month free
+            BUNDLE WITH ANY HULU PLAN AND SAVE
           </h4>
           <img
-            src="/logo.png"
+            src="/bannerlogo.png"
+            objectFit="contain"
             alt="Hulu"
-            className="w-200 md:w-270 m-2"
+            className="md:w-[40rem] w-[20rem] m-2"
           />
-          <div className="font-bold text-2xl text-center">
-            Watch thousands of TV shows and movies.
+          <div className="font-bold text-xl lg:text-3xl lg:w-[50rem] text-clip text-center">
+          Get endless entertainment, live sports, and the shows and movies you love.
           </div>
-          <div className="hidden md:block text-lg">
-            HBO Max™, SHOWTIME®, CINEMAX® and STARZ® available as add-ons.
-          </div>
-          <button className="bg-white text-gray-800 px-8 py-5 text-md font-semibold border-0 rounded-md cursor-pointer uppercase tracking-wide leading-3 hover:opacity-80">
-            Start Your Free Trial
+          <button className="bg-hulu-green hover:text-black hover:bg-hulu-green/20 w-[40rem] text-gray-800 px-8 py-5 text-md font-semibold border-0 rounded-md cursor-pointer uppercase tracking-wide leading-3 hover:opacity-80">
+            GET THE DISNEY BUNDLE
           </button>
-          <div className="text-xs text-gray-200">
-            Free trial for new & eligible returning subscribers only.
+          <div className="flex cursor-pointer text-gray-200 space-x-2 items-center text-xs">
+            <span className='border-b border-gray-300'>What's included</span>
+            <span>see</span>
+            <span className='border-b border-gray-300'>bundle terms</span>
+          </div>
+          <div className="text-lg cursor-pointer border-b border-gray-300 text-gray-200">
+            Sign up for Hulu only
           </div>
         </div>
       </header>
