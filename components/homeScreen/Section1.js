@@ -4,15 +4,14 @@ const Section1 = () => {
   return (
     <div>
         <section className="flex flex-col text-center justify-items-center items-center px-16 py-20 text-white bg-black">
-        <h4 className="uppercase text-sm text-hulu-green font-bold">
+        <h4 className="uppercase text-xs text-hulu-green font-bold">
           Included in all plans
         </h4>
-        <div className="font-bold text-5xl md:text-7xl mt-6">
-          All The TV You Love
+        <div className="font-semibold text-[20rem]  md:text-7xl mt-6">
+        All The TV You Love
         </div>
-        <div className="text-xl md:text-2xl max-w-3xl mt-6">
-          Stream full seasons of exclusive series, current-season episodes, hit
-          movies, Hulu Originals, kids shows, and more.
+        <div className="text-base max-w-[36rem] mt-6">
+        Stream full seasons of exclusive series, current-season episodes, hit movies, Hulu Originals, kids shows, and more.
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 mt-14">
@@ -45,6 +44,7 @@ const Section1 = () => {
             </div>
           </div>
         </div>
+        <div className='text-xs justify-end text-gray-400 pl-[32%]'>Premium network add-ons available for an additional cost</div>
       </section>
     </div>
   )
