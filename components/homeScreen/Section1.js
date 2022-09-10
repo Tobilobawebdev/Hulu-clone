@@ -7,7 +7,7 @@ const Section1 = () => {
         <h4 className="uppercase text-xs text-hulu-green font-bold">
           Included in all plans
         </h4>
-        <div className="font-semibold text-[20rem]  md:text-7xl mt-6">
+        <div className="font-semibold text-4xl  md:text-7xl mt-6">
         All The TV You Love
         </div>
         <div className="text-base max-w-[36rem] mt-6">

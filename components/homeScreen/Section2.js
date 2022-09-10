@@ -11,10 +11,10 @@ const Section2 = () => {
           <div className="font-bold text-4xl md:text-3xl">
             Live TV Makes It Better
           </div>
-          <div className="text-base w-[40rem]">
+          <div className="md:text-base leading-3 -tracking-tight text-xsm flex justify-center md:w-[40rem]">
           Make the switch from cable. Get 75+ top channels on Hulu with your favorite live sports, news, and events - plus the entire Hulu streaming library. With Unlimited DVR, store Live TV recordings for up to nine months and fast-forward through your DVR content. Access endless entertainment with Disney+ and live sports with ESPN+. All three for a new price of $69.99/month.
           </div>
-          <div className="text-gray-300 w-[30rem] text-xs">
+          <div className="text-gray-300 leading-3 -tracking-tight text-sm w-[30rem] md:text-xs">
           18+ only. Regional restrictions, blackouts and Live TV terms apply. Access content from each service separately and access ESPN+ content via Hulu. Location data required to watch certain content. Offer valid for eligible subscribers only. 
             Unlimited DVR recording is not available for on-demand shows.
           </div>
